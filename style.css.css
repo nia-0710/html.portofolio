@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    display: flax;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: 30%;
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
